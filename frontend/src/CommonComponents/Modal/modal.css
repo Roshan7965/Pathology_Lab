@@ -1,0 +1,102 @@
+.modal{
+    position: fixed;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.modal-card{
+    width: 55%;
+    height: 75%;
+    background-color: white;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    border-radius: 5px;
+    align-items: center;
+}
+.modal-titlbox{
+    width: 95%;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.modal-title{
+    font-size: 28px;
+    color: rgb(12, 187, 187);
+    font-weight: 600;
+}
+.x-btn{
+    font-size: 32px;
+    color: rgb(12, 187, 187);
+    font-weight: 600;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.x-btn:hover{
+    background-color: gray;
+}
+
+.modal-body{
+    width:95%;
+}
+.inputRowModal{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+   
+}
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    box-sizing:border-box ;
+}
+.input-label{
+    font-size: 12px ;
+    color:rgb(12, 187, 187);
+}
+.input-modal{
+    border: 1px solid rgb(12, 187, 187) ;
+    width:80% ;
+    height: 35px;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+.input-modal::placeholder{
+    color:rgb(12, 187, 187) ;
+}
+.input-modal:focus{
+    outline: none;
+}
+.btnDivModal{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.submit-modal{
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    background: linear-gradient(#3ac6bc 0 0) var(--p, 0) / var(--p, 0) no-repeat;
+    transition: 0.8s, background-position 0s;
+}
+
+.submit-modal:hover{
+    background-color: rgb(12, 187, 187);
+    --p: 100%;
+    color: #000000;
+}

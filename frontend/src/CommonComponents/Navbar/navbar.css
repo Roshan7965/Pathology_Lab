@@ -1,0 +1,86 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(184, 229, 229);
+
+
+}
+.rightSideNavbar{
+    display: flex;
+    height: 100%;
+}
+.linksRightNavbar{
+    margin: 0px 20px;
+    border: 1px solid rgb(184, 229, 229);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    font-weight: 700;
+    cursor: pointer;
+    background: linear-gradient(#3ac6bc 0 0) var(--p, 0) / var(--p, 0) no-repeat;
+    transition: 0.8s, background-position 0s;
+    border-radius: 5px;
+    font-size: 17px;
+    position: relative;
+    text-decoration: none;
+    color: #000000;
+    
+}
+.linksRightNavbar:hover{
+    background-color: rgb(12, 187, 187);
+    --p: 100%;
+    color: #000000;
+
+}
+.imgLogoNavbar{
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+
+.addtest-modal{
+    position: absolute; 
+    top : 100%;
+    right: 0;
+    background-color: whitesmoke;
+    padding: 0px 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.input-addtest-modal{
+    width: 100%;
+    margin-bottom: 5px;
+
+}
+.modal-input-fld{
+    width: 250px;
+    &:focus{
+        outline: none;
+    }
+}
+.create-addtest{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    border: 1px solid;
+    height: 35px;
+    background: linear-gradient(#3ac6bc 0 0) var(--p, 0) / var(--p, 0) no-repeat;
+    transition: 0.8s, background-position 0s;
+    &:hover{
+        background-color: rgb(12, 187, 187);
+        --p: 100%;
+        color: #000000;
+    }
+}
+
+/* ----------------- */

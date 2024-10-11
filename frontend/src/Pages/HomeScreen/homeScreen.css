@@ -1,0 +1,224 @@
+.homescreen{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.introHomeScreen{
+    width: 100%;
+    background-image: linear-gradient(#d7f1ef,#ffffff);
+
+}
+.imgHomeScreenLog{
+    display: flex;
+    width: 100%;
+
+}
+.imgDiv{
+    width: 40%;
+    padding: 40px 60px 40px 150px;
+}
+.introPart{
+    width: 60%;
+    padding: 40px 100px;
+
+}
+.labLogoHomeScreen{
+    width: 100%;
+    height: 350px;
+    border-radius: 5px;
+}
+.titlemini{
+    font-size: 24px;
+    
+}
+.titleMajor{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.description1{
+    margin-bottom: 20px;
+}
+.topBtnsDiv{
+    display: flex;
+    margin-top: 20px;
+}
+.btns-div{
+    width: 120px;
+    border: 1px solid;
+    font-size: 18px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    cursor: pointer;
+    background: linear-gradient(#3ac6bc 0 0) var(--p, 0) / var(--p, 0) no-repeat;
+    transition: 0.8s, background-position 0s;
+}
+.btns-div:hover{
+    background-color: rgb(12, 187, 187);
+    --p: 100%;
+    color: #000000;
+}
+
+.testHomeScreen{
+    width: 100%;
+    border-top: 1px solid rgb(184, 229, 229);
+    display: flex;
+}
+.leftPartTest{
+width: 25%;
+padding: 20px 20px 0px 20px;
+}
+.totalTest{
+    font-size: 28px;
+    padding-left: 10px;
+}
+.testNameDiv{
+    height: 270px;
+    overflow-y: auto;
+    border: 1px solid rgb(184, 229, 229);
+}
+.testNameTitle{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: 450;
+    border-bottom: 1px solid #3ac6bc;
+    cursor: pointer;
+    background: linear-gradient(#3ac6bc 0 0) var(--p, 0) / var(--p, 0) no-repeat;
+    transition: 0.8s, background-position 0s;
+}
+.testNameTitle:hover{
+    background-color: rgb(12, 187, 187);
+    --p: 100%;
+    color: #000000;
+}
+.rightPartTest{
+    padding-top: 20px;
+    width: 75%;
+    font-size: 28px;
+    border: 1px solid rgb(184, 229, 229);
+    padding-left: 10px;
+}
+.bottomRightPart{
+    border-top: 1px solid rgb(184, 229, 229);
+    padding-top: 10px;
+    height: 250px;
+    overflow-y: auto;
+
+}
+.topBottomRightPart{
+    font-size: 16px;
+}
+.bottomBottomRightPart{
+    display: flex;
+    
+
+}
+.bBRightPartLeftSide{
+    width: 40%;
+    padding: 20px;
+}
+.bBRightPartRightSide{
+    width: 60%;
+    padding-top: 30px;
+}
+.detailsBlock{
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.bBRightImage{
+    width: 70%;
+    border-radius: 5px;
+}
+.spanColrChange{
+    color: #3ac6bc;
+}
+
+.activeNavLink{
+    background-color: #3ac6bc;
+}
+
+
+/* -------- contact form  */
+.contactHomeScreen{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    /* background-color:; */
+    border-radius: 5px;
+    /* border: 3px solid #3ac6bc; */
+    margin-bottom: 50px;
+  background-image: linear-gradient(#d7f1ef,#ffffff);
+
+}
+
+.inputFields{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.inputFieldsBox{
+    height: 20px;
+    border: 1px solid #3ac6bc;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.inputFieldsBox:focus{
+    outline: none;
+}
+.inputFieldsBox::placeholder{
+    font-size: 16px;
+    color: #3ac6bc;
+}
+.inputTextareaMessage{
+    padding: 10px;
+    border: 1px solid #3ac6bc;
+}
+.inputTextareaMessage:focus{
+    outline: none;    
+}
+.inputTextareaMessage::placeholder{
+    color: #3ac6bc;    
+}
+.contactFormTitle{
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.sendEmailButton{
+    width: 30%;
+    border: 3px solid #3ac6bc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    margin-top: 20px;
+    font-weight: 600;
+    background: linear-gradient(#3ac6bc 0 0) var(--p, 0) / var(--p, 0) no-repeat;
+    transition: 0.8s, background-position 0s;
+    cursor: pointer;
+}
+.sendEmailButton:hover{
+    background-color: rgb(12, 187, 187);
+    --p: 100%;
+  color: #fff;
+}

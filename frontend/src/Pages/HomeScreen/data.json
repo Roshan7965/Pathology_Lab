@@ -1,0 +1,124 @@
+{
+    "data":[
+        {   "id":0,
+            "name":"Haemoglobin Test",
+            "imgLink":"https://th.bing.com/th?id=OIP.Zq-CvDQiVa-zyD12EQyZ_gHaE5&w=307&h=203&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2",
+            "description":"This test is a complete blood routine test carried out to measure the different components of blood. It gives information about the general health of the person. Hb measures the number of red blood cells, TLC measures the total number of white blood cells, which if high in number indicates an infection, DLC measures the consistency and structure of the white blood cells and counts the percentage of basophils, eosinophils, neutrophils, monocytes and lymphocytes.",
+            "requirements":[
+                {
+                    "key":"Fasting",
+                    "value":"Required"
+                },
+                {
+                    "key":"Normal Level in Male",
+                    "value":"13 or higher"
+                },
+                {
+                    "key":"Normal Level in FeMale",
+                    "value":"12 or higher"
+                },
+                {
+                    "key":"Price/Cost",
+                    "value":"Rs 1250"
+                }
+            ]
+        },
+        {
+            "id":1,
+            "name":"Urine Glucose Test",
+            "imgLink":"https://images.fineartamerica.com/images-medium-large-5/diastix-urine-test-for-glucose-saturn-stillsscience-photo-library.jpg",
+            "description":"A urine glucose test is an indirect measure of your blood sugar (glucose) levels. When glucose levels are too high, the kidneys excrete the excess amount in the urine. Therefore, detecting glucose in the urine may be both a sign and a reminder to regulate your blood glucose levels more tightly.",
+            "requirements":[
+                {
+                    "key":"Fasting",
+                    "value":"Required"
+                },
+                {
+                    "key":"Normal Range",
+                    "value":"0 - 0.8 mmol/l"
+                },
+                {
+                    "key":"Abnormal Range",
+                    "value":"> 0.8 mmol/l"
+                },
+                {
+                    "key":"Price/Cost",
+                    "value":"Rs 1250"
+                }
+            ]
+        },
+        {
+            "id":2,
+            "name":"Urine Drug Test",
+            "imgLink":"https://th.bing.com/th/id/OIP.4McVmlUPoFntwIwzmTJFDAHaEo?rs=1&pid=ImgDetMain",
+            "description":"A urine drug test can help a doctor detect potential substance abuse problems. After a drug test identifies drugs you may be misusing, doctors can help you start a treatment plan. Taking urine drug tests throughout substance abuse treatment helps to ensure that the plan is working and that you’re no longer taking drugs.",
+            "requirements":[
+                {
+                    "key":"Fasting",
+                    "value":"Required"
+                },
+                {
+                    "key":"Normal Range in F",
+                    "value":"between 90°F to 100°F "
+                },
+                {
+                    "key":"Normal Range in C",
+                    "value":"32°C to 38°C"
+                },
+                {
+                    "key":"Price/Cost",
+                    "value":"Rs 1250"
+                }
+            ]
+        },
+        {
+            "id":3,
+            "name":"Blood Glucose Test",
+            "imgLink":"https://bloodsugareasy.com/wp-content/uploads/2020/01/Doctor-checking-blood-sugar-level-with-glucometer-Proxima-Studio--scaled.jpeg",
+            "description":"A blood glucose test measures the level of glucose (sugar) in your blood. The test can involve a finger prick or a blood draw from your vein. Healthcare providers most commonly use blood glucose tests to screen for Type 2 diabetes, which is a common condition.",
+            "requirements":[
+                {
+                    "key":"Fasting",
+                    "value":"Need to fast for 8 hours"
+                },
+                {
+                    "key":"Normal Range",
+                    "value":"Under 140 mg/dL"
+                },
+                {
+                    "key":"Abnormal Range",
+                    "value":"160 <"
+                },
+                {
+                    "key":"Price/Cost",
+                    "value":"Rs 1250"
+                }
+            ]
+        },
+        {
+            "id":4,
+            "name":"Stool DNA Test",
+            "imgLink":"https://blog.lumahealth.com/hs-fs/hubfs/3-19.png?width=1000&name=3-19.png",
+            "description":"Stool DNA test finds cells in a stool sample. The test checks for changes in the cells' genetic material, which is also called DNA. Certain DNA changes are a sign that cancer is present or that it might happen in the future. The stool DNA test also looks for hidden blood in the stool.",
+            "requirements":[
+                {
+                    "key":"Fasting",
+                    "value":"Need to fast for 8 hours"
+                },
+                {
+                    "key":"Normal Range",
+                    "value":"Under 140 mg/dL"
+                },
+                {
+                    "key":"Abnormal Range",
+                    "value":"160 <"
+                },
+                {
+                    "key":"Price/Cost",
+                    "value":"Rs 1250"
+                }
+            ]
+        }
+        
+    ]
+}
