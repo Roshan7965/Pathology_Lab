@@ -9,7 +9,7 @@ const Modal = ({ setOpenCreate, item }) => {
     }, [])
     console.log(item)
     const handleSelectOption = async () => {
-        await axios.get('http://localhost:8000/test/get').then(response => {
+        await axios.get('https://pathology-lab-backend.onrender.com/test/get').then(response => {
             const data = response.data.data;
             setListOfTest(data);
             if (!item) {
