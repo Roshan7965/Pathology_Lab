@@ -13,7 +13,7 @@ const Report = () => {
     console.log(patientDetail)
     console.log(testData)
     const fetchdataOnLoading =async()=>{
-        await axios.get(`http://localhost:8000/patient/${id}/testDetails`).then(response=>{
+        await axios.get(`https://pathology-lab-backend.onrender.com/patient/${id}/testDetails`).then(response=>{
             console.log(response)
             const patData = response.data.patient;
             const testdata = response.data.test;
