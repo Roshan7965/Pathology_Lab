@@ -47,7 +47,7 @@ const Report = () => {
         }
     }
     const handleFinalSubmit =async()=>{
-        await axios.put(`http://localhost:8000/patient/${patientDetail?._id}`, 
+        await axios.put(`https://pathology-lab-backend.onrender.com/patient/${patientDetail?._id}`, 
         {
             ...patientDetail,result:inputField,status:"Completed"
         }).then(resp => {
