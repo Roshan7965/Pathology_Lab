@@ -106,7 +106,7 @@ const HomeScreen = () => {
 
               </div>
               <div className="bBRightPartRightSide">
-                <img src={selectedDetailedTest?.URL.createObjectURL(imgLink)} alt='pic' className='bBRightImage' />
+                <img src={selectedDetailedTest?.URL.imgLink} alt='pic' className='bBRightImage' />
               </div>
             </div>
           </div>
