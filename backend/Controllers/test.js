@@ -3,10 +3,7 @@ const Test = require('../Models/testModels');
 exports.postTest= async (req,res)=>{
     try{
         const body = req.body;
-        // Filter out undefined fields
-        Object.keys(body).forEach((key) => {
-            if (body[key] === undefined) delete body[key];
-        });
+        
         const isDataExist = await Test.findOne({name:body.name});
         if(isDataExist){
             res.status(202).json({
