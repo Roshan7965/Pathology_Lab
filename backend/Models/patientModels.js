@@ -64,5 +64,5 @@ const Schema = new mongoose.Schema({
 }
 );
 
-const repo = mongoose.model('patient',Schema);
+const repo = mongoose.model('patients',Schema);
 module.exports = repo;
