@@ -34,7 +34,8 @@ const HomeScreen = () => {
     setSelectedDetailedtest(listOfTest[index])
   }
   const handleClosePopup = (val) => {
-    setClickAddTest(val)
+    setClickAddTest(val);
+    console.log("Add test");
   }
 
   return (
