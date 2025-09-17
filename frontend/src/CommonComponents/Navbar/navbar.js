@@ -27,7 +27,7 @@ const Navbar = () => {
     setInput({...input,[event.target.name]:event.target.value})
   }
   const onClickCreate =async()=>{
-    await axios.post("http://localhost:8000/test/post",input).then(res=>{
+    await axios.post("https://pathology-lab-backend.onrender.com/test/post",input).then(res=>{
       
       window.location.reload();
     }).catch(err=>{

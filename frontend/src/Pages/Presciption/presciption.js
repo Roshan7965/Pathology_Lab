@@ -13,7 +13,7 @@ const Presciption = () => {
         handleOnPageLoading()
     }, [])
     const handleOnPageLoading = async () => {
-        await axios.get(`http://localhost:8000/patient/get/${id}`).then(response => {
+        await axios.get(`https://pathology-lab-backend.onrender.com/patient/get/${id}`).then(response => {
             const data = response.data.data;
             setPatientData(data);
         }).catch(err => {

@@ -20,7 +20,7 @@ const Status = () => {
   }, [activeBar]);
 
   const fetchPatient =async()=>{
-    await axios.get(`http://localhost:8000/patient/getStatus/${activeBar}`).then(res=>{
+    await axios.get(`https://pathology-lab-backend.onrender.com/patient/getStatus/${activeBar}`).then(res=>{
       setData(res.data.data);
       console.log(res.data.data)
     }).catch(err=>{
@@ -32,7 +32,7 @@ const Status = () => {
     setClickedpat(item);
   }
   const deletePatient =async(id)=>{
-    await axios.delete(`http://localhost:8000/patient/${id}`).then(resp=>{
+    await axios.delete(`https://pathology-lab-backend.onrender.com/patient/${id}`).then(resp=>{
       window.location.reload();
     }).catch(err=>{
       console.log(err);

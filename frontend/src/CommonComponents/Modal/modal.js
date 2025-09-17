@@ -9,7 +9,7 @@ const Modal = ({ setOpenCreate, item }) => {
     }, [])
     console.log(item)
     const handleSelectOption = async () => {
-        await axios.get('http://localhost:8000/test/get').then(response => {
+        await axios.get('https://pathology-lab-backend.onrender.com/test/get').then(response => {
             const data = response.data.data;
             setListOfTest(data);
             if (!item) {
@@ -30,7 +30,7 @@ const Modal = ({ setOpenCreate, item }) => {
     }
     const handleCreateNew = async () => {
         if (!item) {
-            await axios.post("http://localhost:8000/patient/post", input).then(resp => {
+            await axios.post("https://pathology-lab-backend.onrender.com/patient/post", input).then(resp => {
                 console.log(resp)
                 window.location.reload();
             }).catch(err => {
@@ -38,7 +38,7 @@ const Modal = ({ setOpenCreate, item }) => {
                 console.log(err)
             })
         }else{
-            await axios.put(`http://localhost:8000/patient/${item?._id}`, input).then(resp => {
+            await axios.put(`https://pathology-lab-backend.onrender.com/patient/${item?._id}`, input).then(resp => {
                 console.log(resp)
                 window.location.reload();
             }).catch(err => {
